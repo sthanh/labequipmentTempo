@@ -8,6 +8,7 @@ import {
   SettingsIcon,
   HelpCircleIcon,
   LogOutIcon,
+  WrenchIcon,
 } from "lucide-react";
 
 export function Sidebar({ isOpen, currentView, onNavigate }) {
@@ -27,6 +28,12 @@ export function Sidebar({ isOpen, currentView, onNavigate }) {
       label: "Equipment",
       id: "equipment",
       active: currentView === "equipment",
+    },
+    {
+      icon: <WrenchIcon size={20} />,
+      label: "Service Requests",
+      id: "servicerequests",
+      active: currentView === "servicerequests",
     },
     {
       icon: <MapPinIcon size={20} />,

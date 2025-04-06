@@ -1,4 +1,4 @@
-import { LocationsPage } from "../../components/pages/LocationsPage";
+import { LocationsPage } from "../../../components/pages/LocationsPage";
 
 export default function LocationsPageStoryboard() {
   return (
